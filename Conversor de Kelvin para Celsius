@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+const ebulicaok = 373
+
+func main() {
+
+	tempk := ebulicaok
+	tempc := tempk - 273
+
+	fmt.Println("A temperatura de ebulição da água em Kelvin é: ", tempk, "°K")
+	fmt.Println("A temperatura de ebulição da água em Celsius é: ", tempc, "°C")
+
+	fmt.Printf("A temperatura de ebulição da água em Kelvin é: %d°K e em Celsius é: %d°C", tempk, tempc)
+
+}
